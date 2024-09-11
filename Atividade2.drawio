@@ -4,8 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0Wqrf1u7eFIrDxNRwImo-2" value="" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
-          <mxGeometry x="364" y="130" width="100" height="60" as="geometry" />
+        <mxCell id="0Wqrf1u7eFIrDxNRwImo-3" value="Incio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Wqrf1u7eFIrDxNRwImo-4" value="Informe o primeiro valor" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Wqrf1u7eFIrDxNRwImo-5" value="Informe o segundo valor" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
