@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.13">
+  <diagram name="Página-1" id="xcHSzIh_UoZQUQMlTi6a">
+    <mxGraphModel dx="2253" dy="3087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZOojJtgFrcOXhXtUdptE-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2) Faça um algoritmo e diagrama de atividades para receber um número qualquer e imprimir na tela se o número é par ou ímpar.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;Resposta:&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;1. define o nome e o tipo de variável&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;2. pede para o usuário digitar o valor&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;3. mostra o valor informado&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;4. se o o resto da divisão do número número informado por 2 for igual a zero&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;5. printa o resultado: o número é par&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;6. FIM&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;7.&amp;nbsp; Senão, se o resto da divisão do número informado por 2 for igual a 1&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;8. printa o resultado: o número é ímpar&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;9. FIM&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-820" y="-2330" width="220" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-1" value="Verifica se um número é par ou ímpar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-563" y="-2320" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-5" target="Czi0nwyqsZ2l26EhJi8h-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-5" value="INÍCIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-486.5" y="-2240" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-6" value="NUMERO: INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-531.5" y="-2070" width="237" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-9" target="Czi0nwyqsZ2l26EhJi8h-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ESCREVA O VALOR DE NUMERO&lt;/span&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="-1980" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-11" value="LEIA NUMERO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-531.5" y="-1890" width="237" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="-1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-12" value="SE NUMERO %2 == 0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-503.25" y="-1790" width="176.5" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=115.625;exitDy=60;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-13" target="Czi0nwyqsZ2l26EhJi8h-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-13" value="O NUMERO É PAR" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="-1640" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-14" value="O NUMERO É ÍMPAR" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-339.5" y="-1640" width="209" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-16" target="Czi0nwyqsZ2l26EhJi8h-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-16" value="FIM SE" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-486.5" y="-1580" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-17" value="FIM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-486.5" y="-1400" width="147" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-6" target="Czi0nwyqsZ2l26EhJi8h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-11" target="Czi0nwyqsZ2l26EhJi8h-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=115.625;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Czi0nwyqsZ2l26EhJi8h-12" target="Czi0nwyqsZ2l26EhJi8h-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Czi0nwyqsZ2l26EhJi8h-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=115.625;exitDy=60;exitPerimeter=0;entryX=1.01;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-225.345" y="-1590" as="sourcePoint" />
+            <mxPoint x="-339.5" y="-1506.063" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-225.47" y="-1506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
