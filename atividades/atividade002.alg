@@ -1,8 +1,10 @@
 algoritmo 'verifica par ou ímpar'
 
-inicio
+var
 	numero: int
 
+inicio
+	
 	escreva('Digite um número: ')
 	leia (numero)
 
