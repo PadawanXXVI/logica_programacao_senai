@@ -1,52 +1,64 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.13">
-  <diagram name="Página-1" id="qihxvgWzMPJ05p4WYAWs">
-    <mxGraphModel dx="1426" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-1" value="ANTECESSOR E SUCESSOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="239" width="350" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-2" target="Zz7lqHkgqW2Vnof2PBcP-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="284" y="80" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-3" value="NUMERO: INT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="289" y="180" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-4" target="Zz7lqHkgqW2Vnof2PBcP-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-4" value="ESCREVA O VALOR DE NUMERO" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="289" y="250" width="250" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-5" value="LEIA NUMERO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="289" y="360" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-7" value="&quot;O ANTECESSOR DO NÚMERO &quot;, NUMERO, &quot;É &quot;, NUMERO - 1" style="shape=display;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="290" y="440" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-9" value="&quot;O SUCESSOR DO NÚMERO &quot;, NUMERO, &quot;É &quot;, NUMERO + 1" style="shape=display;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="284" y="540" width="260" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-10" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="630" width="260" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-3" target="Zz7lqHkgqW2Vnof2PBcP-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-5" target="Zz7lqHkgqW2Vnof2PBcP-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=145;exitDy=70;exitPerimeter=0;entryX=0;entryY=0;entryDx=145;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-7" target="Zz7lqHkgqW2Vnof2PBcP-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Zz7lqHkgqW2Vnof2PBcP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=145;exitDy=70;exitPerimeter=0;entryX=0.535;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-9" target="Zz7lqHkgqW2Vnof2PBcP-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="qihxvgWzMPJ05p4WYAWs">
+        <mxGraphModel dx="907" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-1" value="ANTECESSOR E SUCESSOR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="239" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-2" target="Zz7lqHkgqW2Vnof2PBcP-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="80" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-3" value="NUM: INT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="180" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-4" target="Zz7lqHkgqW2Vnof2PBcP-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-4" value="ESCREVA O VALOR DE NUM" style="shape=manualInput;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="250" width="250" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-5" value="LEIA NUM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="289" y="360" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-7" value="&quot;O ANTECESSOR DO NÚMERO &quot;, NUMERO, &quot;É &quot;, ANTECESSOR" style="shape=display;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="600" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=145;exitDy=70;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-9" target="Zz7lqHkgqW2Vnof2PBcP-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-9" value="&quot;O SUCESSOR DO NÚMERO &quot;, NUMERO, &quot;É &quot;,&amp;nbsp; SUCESSOR" style="shape=display;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="710" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-10" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="284" y="830" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=0.225;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-3" target="Zz7lqHkgqW2Vnof2PBcP-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Zz7lqHkgqW2Vnof2PBcP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=145;exitDy=70;exitPerimeter=0;entryX=0;entryY=0;entryDx=145;entryDy=0;entryPerimeter=0;" parent="1" source="Zz7lqHkgqW2Vnof2PBcP-7" target="Zz7lqHkgqW2Vnof2PBcP-9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="ANTECESSOR : NUMERO&amp;nbsp; - 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289" y="440" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=145;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="Zz7lqHkgqW2Vnof2PBcP-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="SUCESSOR: NUMERO + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289" y="524.5" width="250" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
