@@ -1,36 +1,49 @@
-algoritmo "tabuada"
+programa
+{
+	funcao inicio() 
+	{
+		inteiro numero, resultado, contador
+		
+		escreva("Informe um número para ver sua tabuada: ")
+		leia(numero)
 
-// Escreva um algoritmo que recebe um número e mostre a tabuada de adição (+),
-// subtração (-), divisão (/) e multiplicação (*).
-
-var 
-    num: int
-
-inicio
-    escreval("Digite um número:")
-    leia(num)
-
-    escreval("Tabuada de Adição:")
-    para i de 1 ate 10 faca
-        escreval(numero, " + ", i, " = ", numero + i)
-    fimpara
-    
-    escreval("Tabuada de Subtração:")
-    para i de 1 ate 10 faca
-        escreval(numero, " - ", i, " = ", numero - i)
-    fimpara
-    
-    escreval("Tabuada de Multiplicação:")
-    para i de 1 ate 10 faca
-        escreval(numero, " * ", i, " = ", numero * i)
-    fimpara
-    
-    escreval("Tabuada de Divisão:")
-    para i de 1 ate 10 faca
-        // Verifica se o divisor não é zero
-        se i <> 0 entao
-            escreval(numero, " / ", i, " = ", numero / i)
-        fimse
-    fimpara
-
-fimalgoritmo
+		limpa()
+		
+		// Tabuada de multiplicação
+		escreva("Tabuada de multiplicação:\n")
+		para (contador = 1; contador <= 10; contador++) // inicio, fim, adicionando 1 valor (contador++)
+		{
+			resultado = numero * contador 
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
+		}
+		
+		// Tabuada de adição
+		escreva("\nTabuada de adição:\n")
+		para (contador = 1; contador <= 10; contador++) 
+		{
+			resultado = numero + contador 
+			escreva (numero, " + ", contador, " = ", resultado , "\n")
+		}
+		
+		// Tabuada de subtração
+		escreva("\nTabuada de subtração:\n")
+		para (contador = 1; contador <= 10; contador++) 
+		{
+			resultado = numero - contador 
+			escreva (numero, " - ", contador, " = ", resultado , "\n")
+		}
+		
+		// Tabuada de divisão
+		escreva("\nTabuada de divisão:\n")
+		para (contador = 1; contador <= 10; contador++) 
+		{
+			se (contador != 0) 
+      {
+				resultado = numero / contador 
+				escreva (numero, " / ", contador, " = ", resultado , "\n")
+			}
+      senao
+				escreva (numero, " / ", contador, " = Divisão por zero\n")
+					}
+	}
+}
