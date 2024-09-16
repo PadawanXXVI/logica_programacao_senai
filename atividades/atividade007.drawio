@@ -43,26 +43,38 @@
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-17" value="ESCREVA &quot;1 - À VISTA EM DINHEIRO OU PIX, 15% DE DESCONTO&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="570" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2aaTuEuAqetz4Rh4aNKG-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-18" target="2aaTuEuAqetz4Rh4aNKG-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-18" value="ESCREVA &quot;2 - À VISTA NO CARTÃO DE CRÉDITO, 10% DE DESCONTO&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="670" width="270" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="2aaTuEuAqetz4Rh4aNKG-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-19" target="2aaTuEuAqetz4Rh4aNKG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-19" value="ESCREVA &quot;3 - PARCELADO NO CARTÃO DE CRÉDITO EM DUAS VEZES, VALOR NORMAL&quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="272" y="770" width="270" height="50" as="geometry" />
+          <mxGeometry x="268" y="790" width="281" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-20" value="ESCREVA &quot;4 - PARCELADO NO CARTÃO DE CRÉDITO EM TRÊS VEZES OU MAIS, PREÇO NORMAL + 10% DE JUROS &quot;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="272" y="850" width="270" height="50" as="geometry" />
+          <mxGeometry x="257" y="940" width="299" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2aaTuEuAqetz4Rh4aNKG-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-21" target="2aaTuEuAqetz4Rh4aNKG-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-21" value="ESCREVA &quot;INFORME A FORMA DE PAGAMENTO&quot;" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="277" y="930" width="269" height="90" as="geometry" />
+          <mxGeometry x="276" y="1070" width="269" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2aaTuEuAqetz4Rh4aNKG-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-23" target="2aaTuEuAqetz4Rh4aNKG-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-23" value="LEIA FORMAPAGAMENTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="279" y="1050" width="270" height="60" as="geometry" />
+          <mxGeometry x="277" y="1200" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2aaTuEuAqetz4Rh4aNKG-24" value="ESCOLHA FORMAPAGAMENTO" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="277" y="1160" width="263" height="80" as="geometry" />
+          <mxGeometry x="281" y="1320" width="263" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2aaTuEuAqetz4Rh4aNKG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.507;exitY=1.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.533;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-18" target="2aaTuEuAqetz4Rh4aNKG-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2aaTuEuAqetz4Rh4aNKG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=159.375;exitDy=110;exitPerimeter=0;entryX=0.509;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2aaTuEuAqetz4Rh4aNKG-20" target="2aaTuEuAqetz4Rh4aNKG-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
