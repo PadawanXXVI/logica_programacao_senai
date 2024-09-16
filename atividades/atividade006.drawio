@@ -13,56 +13,50 @@
         <mxCell id="ujIBLaoprjg1PZej5cj--2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="286" y="70" width="254" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--3" value="FACA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="290" width="194" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--5" target="ujIBLaoprjg1PZej5cj--14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--5" value="ESCREVA UM NUMERO" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="297" y="400" width="231" height="80" as="geometry" />
+          <mxGeometry x="295" y="270" width="231" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--6" target="ujIBLaoprjg1PZej5cj--3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--6" value="INTEIRO NUMERO, FATORIAL = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ujIBLaoprjg1PZej5cj--6" value="INTEIRO NUMERO, ATUAL = 1, FATORIAL = 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="288" y="180" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.506;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--3" target="ujIBLaoprjg1PZej5cj--5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--14" target="ujIBLaoprjg1PZej5cj--17">
+        <mxCell id="ujIBLaoprjg1PZej5cj--33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--14" target="ujIBLaoprjg1PZej5cj--17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--14" value="LEIA NUMERO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288" y="525" width="250" height="60" as="geometry" />
+          <mxGeometry x="286" y="395" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--17" target="ujIBLaoprjg1PZej5cj--19">
+        <mxCell id="ujIBLaoprjg1PZej5cj--34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--17" target="ujIBLaoprjg1PZej5cj--19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--17" value="ENQUANTO NUMERO &amp;lt; 1&lt;div&gt;ENQUANTO NUMERO &amp;gt; 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="316" y="610" width="194" height="80" as="geometry" />
+        <mxCell id="ujIBLaoprjg1PZej5cj--17" value="ENQUANTO (ATUAL &amp;lt;= NUMERO)" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="291" y="490" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--19" target="ujIBLaoprjg1PZej5cj--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--19" value="FATORIAL = FATORIAL * NUMERO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288" y="750" width="250" height="60" as="geometry" />
+        <mxCell id="ujIBLaoprjg1PZej5cj--19" value="FATORIAL = FATORIAL * ATUAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="620" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--20" value="NUMERO = NUMERO -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="288" y="850" width="250" height="60" as="geometry" />
+        <mxCell id="ujIBLaoprjg1PZej5cj--20" value="ATUAL = ATUAL + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286" y="720" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--23" target="ujIBLaoprjg1PZej5cj--29">
+        <mxCell id="ujIBLaoprjg1PZej5cj--35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--23" target="ujIBLaoprjg1PZej5cj--29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ujIBLaoprjg1PZej5cj--23" value="ESCREVA &quot;O FATORIAL É: &quot;, FATORIAL&amp;nbsp;" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="289" y="950" width="250" height="80" as="geometry" />
+        <mxCell id="ujIBLaoprjg1PZej5cj--23" value="ESCREVA &quot;O FATORIAL DO NÚNERO &quot;, NUMERO, &quot; É: &quot;, FATORIAL&amp;nbsp;" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="820" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.496;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--20" target="ujIBLaoprjg1PZej5cj--23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ujIBLaoprjg1PZej5cj--29" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="274" y="1080" width="280" height="80" as="geometry" />
+          <mxGeometry x="272" y="940" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ujIBLaoprjg1PZej5cj--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.511;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ujIBLaoprjg1PZej5cj--6" target="ujIBLaoprjg1PZej5cj--5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
