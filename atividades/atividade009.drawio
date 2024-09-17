@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.14">
   <diagram name="Página-1" id="nh7FWFvsDnInZv6bYcBi">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-1" value="CALCULA MÉDIA ARITMÉTICA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257" y="10" width="314" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-2" target="Tr5ZR5hQcbcbsCoEGIMF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="110" width="284" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-3" target="Tr5ZR5hQcbcbsCoEGIMF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-3" value="(&quot;INFORME A PRIMEIRA NOTA DO ALUNO&quot;)" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="273" y="360" width="298" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-4" value="LEIA NOTA1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271.5" y="480" width="301" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-5" target="Tr5ZR5hQcbcbsCoEGIMF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-5" value="(&quot;INFORME A SEGUNDA NOTA DO ALUNO&quot;)" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284.5" y="590" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-6" value="LEIA NOTA2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="710" width="301" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-7" target="Tr5ZR5hQcbcbsCoEGIMF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-7" value="(&quot;INFORME A TERCEIRA NOTA DO ALUNO&quot;)" style="shape=manualInput;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284.5" y="810" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-8" target="Tr5ZR5hQcbcbsCoEGIMF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-8" value="LEIA NOTA3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="950" width="301" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-10" target="Tr5ZR5hQcbcbsCoEGIMF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-10" value="MEDIA = (NOTA 1 + NOTA2 + NOTA3) / 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="1070" width="301" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-12" value="REAL NOTA1, NOTA2, NOTA3, MEDIA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257" y="240" width="314" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.47;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-12" target="Tr5ZR5hQcbcbsCoEGIMF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.488;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-4" target="Tr5ZR5hQcbcbsCoEGIMF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.498;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-6" target="Tr5ZR5hQcbcbsCoEGIMF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tr5ZR5hQcbcbsCoEGIMF-24" target="Tr5ZR5hQcbcbsCoEGIMF-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-24" value="(&quot;A MÉDIA DO ALINO É &quot;, MEDIA)" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239.5" y="1220" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Tr5ZR5hQcbcbsCoEGIMF-25" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="1400" width="334" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
