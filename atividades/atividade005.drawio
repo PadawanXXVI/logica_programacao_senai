@@ -174,19 +174,19 @@
           <mxGeometry x="216.5" y="2450" width="392.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="kIY3HxUJdaBQ4Pe8dxOL-28" value="ESCREVA (NUMERO, &quot; / &quot;, CONTADOR, &quot; = &quot;, RESULTADO" style="shape=display;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="130.5" y="2710" width="176" height="70" as="geometry" />
+          <mxGeometry x="9.75" y="2850" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kIY3HxUJdaBQ4Pe8dxOL-30" value="SE (CONTADOR != 0)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="239.75" y="2590" width="346" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kIY3HxUJdaBQ4Pe8dxOL-32" value="ESCREVA (NUMERO, &quot; / &quot;, CONTADOR, &quot; = DIVISÃO POR ZERO!&quot;" style="shape=display;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="540.5" y="2760" width="250" height="70" as="geometry" />
+          <mxGeometry x="430" y="2750" width="360.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kIY3HxUJdaBQ4Pe8dxOL-47" value="FIM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="296" y="3250" width="224" height="80" as="geometry" />
+          <mxGeometry x="342.25" y="2970" width="224" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HzNkHr0SK3gTeDUPaL9f-14" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;RESULTADO = NUMERO&amp;nbsp; / CONTADOR&lt;/span&gt;&#xa;&#xa;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="295.25" y="2810" width="237" height="60" as="geometry" />
+          <mxGeometry x="56.25" y="2720" width="293.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgLzvi7CSovLvdMd1KEH-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GgLzvi7CSovLvdMd1KEH-1" target="kIY3HxUJdaBQ4Pe8dxOL-3">
           <mxGeometry relative="1" as="geometry" />
