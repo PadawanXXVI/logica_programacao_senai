@@ -8,15 +8,7 @@ programa
 		leia(numero)
 
 		limpa()
-		
-		// Tabuada de multiplicação
-		escreva("Tabuada de multiplicacão:\n")
-		para (contador = 1; contador <= 10; contador++) // inicio, fim, adicionando 1 valor (contador++)
-		{
-			resultado = numero * contador 
-			escreva (numero, " X ", contador, " = ", resultado , "\n")
-		}
-		
+					
 		// Tabuada de adição
 		escreva("\nTabuada de adição:\n")
 		para (contador = 1; contador <= 10; contador++) 
@@ -33,6 +25,14 @@ programa
 			escreva (numero, " - ", contador, " = ", resultado , "\n")
 		}
 		
+    // Tabuada de multiplicação
+		escreva("Tabuada de multiplicacão:\n")
+		para (contador = 1; contador <= 10; contador++) // inicio, fim, adicionando 1 valor (contador++)
+		{
+			resultado = numero * contador 
+			escreva (numero, " X ", contador, " = ", resultado , "\n")
+		}
+
 		// Tabuada de divisão
 		escreva("\nTabuada de divisão:\n")
 		para (contador = 1; contador <= 10; contador++) 
@@ -43,7 +43,9 @@ programa
 				escreva (numero, " / ", contador, " = ", resultado , "\n")
 			}
       senao
+      {
 				escreva (numero, " / ", contador, " = Divisão por zero\n")
-					}
+      }
+    }
 	}
 }
