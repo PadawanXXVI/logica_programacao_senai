@@ -19,30 +19,30 @@ programa {
 
     imc = peso / altura * altura 
 
-    escolha (imc)
+    se (imc < 18.5)
     {
-      caso (imc < 18.5):
-        escreva("Seu IMC é ", imc, "\nVocé está abaixo do peso")
-        pare
-      
-      caso (imc <= 24.9):
-        escreva("Seu IMC é ", imc, "\nPeso ideal (parabéns!)")
-        pare
-      
-      caso (imc <= 29.9):
-        escreva("Seu IMC é ", imc, "\nVocé está levemente acima do peso")
-        pare
-
-      caso (imc <= 34.9):
+      escreva("Seu IMC é ", imc, "\nVocé está abaixo do peso")
+      }
+    senao se (imc >= 18.5 e imc <= 24.9)
+    {
+      escreva("Seu IMC é ", imc, "\nPeso ideal (parabéns!)")
+      }
+    senao se (imc >= 25 e imc <= 29.9)
+    {
+      escreva("Seu IMC é ", imc, "\nVocé está levemente acima do peso")
+      }
+      senao se (imc >= 30 e imc <= 34.9)
+      {
         escreva("Seu IMC é ", imc, "\nVocé está com obesidade grau I")
-        pare
-
-      caso (imc <= 39.9):
-        escreva("Seu IMC é ", imc, "\nVocé está com obesidade grau II (severa)")
-        pare
-      
-      caso contrario:
+        }
+      senao se (imc >= 35.0 e imc <= 39.9)
+      {
+        escreva("Seu IMC é ", imc, "\nVocé está com obesidade grau II (severa)")      
+        }
+      senao se (imc >= 40)
+      {
         escreva("Seu IMC é ", imc, "\nVocé está com obesidade grau III (mórbida)")
+        }               
     }
   }
 }
