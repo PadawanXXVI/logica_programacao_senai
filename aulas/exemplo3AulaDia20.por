@@ -16,9 +16,8 @@ programa {
       senao
       {
         vetNumeros[i] > maior
-      }
-
-      escreva("O maior número informado é: ", maior)
-    }   
+      }      
+    }  
+    escreva("O maior número informado é: ", maior) 
   }
 }
