@@ -21,16 +21,22 @@ programa {
         leia(funcionario[i][j])
       }
     }
-
-    escreva("\nLista de Departamentos e Funcionários:\n")
+    
+    escreva("\nLista de Departamentos e Funcionários:\n")    
+    
     para (i = 0; i < 4; i++)
     {
-      escreva("Departamento: ", departamento[i], "\n")
-      para (j = 0; j < 6; j++)
+      escreva("Departamento ",departamento[i], "\t")
+    }
+    escreva("\n")
+    
+    para (j = 0; j < 6; j++)
+    {
+      para (i = 0; i < 4; i++)
       {
-          escreva("  Funcionário ", j + 1, ": ", funcionario[i][j], "\n")
+        escreva(funcionario[i][j], "\t")
       }
-      escreva("\n") 
+      escreva("\n")
     }
   }
 }
