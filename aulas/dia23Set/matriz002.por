@@ -2,27 +2,27 @@ programa {
   funcao inicio() {
     // 2. Faça um algoritmo em Portugol que leia 15 números inteiros e guarde-os em uma matriz 5x3.
     // Imprima a matriz no formato tabular, usando a melhor formatação que você conseguir.
+  
+  inteiro matriz[5][3]
+  inteiro l, c
 
-    inteiro matrizInteiro[i][j]
-    inteiro i, j
-
-    para (i = 0; i < 5; i++)
+  para (l = 0; l < 5; l++)
+  {
+    para (c = 0; c < 3; c++)
     {
-      para (j = 0; j < 3; j++)
-      {
-        escreva("Digite um número para a posição [", i, "][", j, "]: ")
-        leia(matrizInteiro[i][j])
-      }
+      escreva("Digite um número para a posição [", l, "][", c, "]:  ")
+      leia(matriz[l][c])
     }
-    
-    escreva("Matriz 5x3")
-    para (i = 0; i < 5; i++)
+  }
+  
+  escreva("Matriz 5x3", "\n")
+    para (l = 0; l < 5; l++)
     {
-      para (j = 0; j < 3; j++)
+      para (c = 0; c < 3; c++)
       {
-        escreva(matrizInteiro[i][j], "\t")
+        escreva(matriz[l][c], "\t")
       }
       escreva("\n")
-    }
+    }      
   }
 }
