@@ -20,9 +20,9 @@ programa {
     {
       para (j = 0; j < 3; j++)
       {
-        escreva(matrizInteiro[i][j], "\t")
+        escreva("|   ",matrizInteiro[i][j], "   ")
       }
-      escreva("\n")
+      escreva("|   ","\n")
     }      
   }
 }
