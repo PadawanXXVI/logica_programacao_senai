@@ -1,14 +1,6 @@
 programa {
-  funcao inicio() 
-  {
-    real notas[10]
-    lerNotas(notas)
-    imprimirNotas(notas)
-    calcularEstatisticas(notas)
-  }
-
-  funcao lerNotas(real notas[10]) 
-  {
+  funcao lerNotas(real notas[]) 
+  {    
     inteiro i
     para(i = 0; i < 10; i++) 
     {
@@ -17,8 +9,8 @@ programa {
     }
   }
 
-  funcao imprimirNotas(real notas[10]) 
-  {
+  funcao imprimirNotas(real notas[]) 
+  {    
     inteiro i
     escreva("\nNotas: ")
     para(i = 0; i < 10; i++) 
@@ -28,8 +20,8 @@ programa {
     escreva("\n")
   }
 
-  funcao calcularEstatisticas(real notas[10]) 
-  {
+  funcao calcularEstatisticas(real notas[]) 
+  {    
     real maior = 0, menor = 11, media, somaNotas = 0.0
     inteiro i
 
@@ -51,5 +43,13 @@ programa {
     escreva("\nMenor nota: ", menor)
     escreva("\nMaior nota: ", maior)
     escreva("\nA média é: ", media, "\n\n")
+  }
+
+  funcao inicio() 
+  {
+    real notas[10]
+    lerNotas(notas)
+    imprimirNotas(notas)
+    calcularEstatisticas(notas)
   }
 }
